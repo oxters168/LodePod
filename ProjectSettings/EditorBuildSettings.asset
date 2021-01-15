@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Core/Scenes/XRInitializer.unity
+    guid: 00e1b9b59e7058d4cafab7582df76cb4
+  - enabled: 1
     path: Assets/Core/Scenes/TestWorld.unity
     guid: 2846ce6716a6e2242bc18e02b4ce3450
   m_configObjects:
