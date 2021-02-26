@@ -10005,40 +10005,16 @@ MonoBehaviour:
   brake: 0
   rotate: 0
   fly: 0
-  acceleration: 0.2
-  maxSpeed: 20
-  flyAcceleration: 1
-  maxFlySpeed: 10
-  rotAcceleration: 4
-  maxRotSpeed: 100
-  maxBrakeForce: 16000
+  acceleration: 0.4
+  maxSpeed: 40
+  flyAcceleration: 2
+  maxFlySpeed: 20
+  rotAcceleration: 8
+  maxRotSpeed: 200
+  maxBrakeForce: 20000
   minGroundDistance: 1
-  floatingForceAcc: 100
-  floatingForceMaxSpeed: 2000
-  floatingForceLerpCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  Kp: 20000
+  Kd: 800000
   antigravityFalloffDistance: 20
   antigravityFalloffCurve:
     serializedVersion: 2
@@ -10064,7 +10040,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxCorrectionTorque: 7500
+  maxCorrectionTorque: 60000
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -10075,10 +10051,6 @@ MonoBehaviour:
   showExpectedOrientation: 0
   showStrafeInput: 1
   showGroundedPosition: 1
-  prevFloatingForce: {x: 0, y: 0, z: 0}
-  floatingForce: {x: 0, y: 0, z: 0}
-  antigravityForce: {x: 0, y: 0, z: 0}
-  currentRotSpeed: 0
 --- !u!114 &919132148240900110
 MonoBehaviour:
   m_ObjectHideFlags: 0
